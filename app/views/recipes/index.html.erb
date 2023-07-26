@@ -1,0 +1,18 @@
+<h1>My Recipe Finder</h1>
+
+<%= form_tag(recipes_path, method: :get) do %>
+  <%= text_field_tag :search_query, params[:search_query], placeholder: "Entre ingredients or recipe name" %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<% if @search_result.present? %>
+  <%= render 'search_results' %>
+<% else %>
+  <ul>
+    <% @recipes.each do |recipe| %>
+      <li>
+        <%= link_to recipe.title, recipe_path(recipe) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

@@ -1,0 +1,13 @@
+<h2>Search Results</h2>
+
+<% if @search_result.present? %>
+  <ul>
+    <% @search_results.each do |recipe| %>
+      <li>
+        <%= link_to recipe.title, recipe %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No recipes found for this query</p>
+<% end %>

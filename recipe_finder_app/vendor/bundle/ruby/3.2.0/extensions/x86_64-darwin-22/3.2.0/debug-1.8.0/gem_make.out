@@ -1,0 +1,19 @@
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230721-91120-8v9suk sitelibdir\=./.gem.20230721-91120-8v9suk clean
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230721-91120-8v9suk sitelibdir\=./.gem.20230721-91120-8v9suk
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230721-91120-8v9suk sitelibdir\=./.gem.20230721-91120-8v9suk install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230721-91120-8v9suk/debug
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230721-91120-8v9suk sitelibdir\=./.gem.20230721-91120-8v9suk clean

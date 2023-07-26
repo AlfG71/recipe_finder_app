@@ -1,0 +1,20 @@
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230724-9814-pxmfjo sitelibdir\=./.gem.20230724-9814-pxmfjo clean
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230724-9814-pxmfjo sitelibdir\=./.gem.20230724-9814-pxmfjo
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230724-9814-pxmfjo sitelibdir\=./.gem.20230724-9814-pxmfjo install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230724-9814-pxmfjo/racc
+
+current directory: /Users/alfg71/Learning_Frameworks/recipe_finder_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230724-9814-pxmfjo sitelibdir\=./.gem.20230724-9814-pxmfjo clean
