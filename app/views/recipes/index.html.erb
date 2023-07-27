@@ -1,3 +1,5 @@
+<!-- index.html.erb -->
+
 <h1>My Recipe Finder</h1>
 
 <%= form_tag(recipes_path, method: :get) do %>
@@ -5,14 +7,15 @@
   <%= submit_tag "Search" %>
 <% end %>
 
-<% if @search_result.present? %>
-  <%= render 'search_results' %>
-<% else %>
+<% if @search_results.present? %>
+  <h2>Search Results</h2>
   <ul>
-    <% @recipes.each do |recipe| %>
+    <% @search_results.each do |recipe| %>
       <li>
-        <%= link_to recipe.title, recipe_path(recipe) %>
+        <%= link_to recipe['title'], recipe['url'] %>
       </li>
     <% end %>
   </ul>
 <% end %>
+
+  <%= link_to 'Stored Recipes', stored_recipes_path %>

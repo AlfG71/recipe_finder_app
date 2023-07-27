@@ -1,0 +1,11 @@
+<!-- all_recipes.html.erb -->
+
+<h1>All Stored Recipes</h1>
+
+<ul>
+  <% @recipes.each do |recipe| %>
+    <li>
+      <%= link_to recipe.title, recipe_path(recipe) %>
+    </li>
+  <% end %>
+</ul>
